@@ -1,0 +1,191 @@
+/* Custom styles for the hero section */
+#hero {
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+  }
+  
+  #hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/oil_seals.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    opacity: 0.8;
+    z-index: -1;
+    animation: heroBgAnimation 10s;
+  }
+  
+  @keyframes heroBgAnimation {
+    0% {
+      transform: translateY(-50%);
+    }
+    50% {
+      transform: translateY(0%);
+    }
+  }
+  
+  /* Custom styles for the navbar */
+  .navbar {
+    min-height: 80px;
+  }
+  
+  .logo {
+    width: 150px;
+    height: 100px;
+  }
+  
+  #hero .container {
+    color: #fff;
+  }
+  
+  /* Custom styles for the heading in the container */
+  #hero .container h1 {
+    color: #ff0000; /* Replace with your desired color */
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+  }
+  
+  /* Custom styles for the lead paragraph in the container */
+  #hero .container p.lead {
+    font-size: 1.5rem;
+    color: #f5f5dc; /* Replace with your desired color */
+  }
+  
+  /* Custom styles for the button in the container */
+  #hero .container a.btn {
+    font-size: 1.2rem;
+    padding: 12px 24px;
+    border-radius: 30px;
+    background-color: #ff0000; /* Replace with your desired color */
+    border-color: #ff0000; /* Replace with your desired color */
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  #hero .container a.btn:hover {
+    background-color: #FFFFFF; /* Replace with your desired color */
+    border-color: #FFFFFF; /* Replace with your desired color */
+    color: #ff0000; /* Replace with your desired color */
+  }
+  
+
+  .navbar-nav .nav-item {
+    font-size: 1.5rem;
+    margin-right: 15px; /* Adjust the value to increase or decrease the spacing */
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #22577a; /* Replace with your desired color */
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #000000; /* Replace with your desired color */
+  }
+  
+  
+  .navbar-light .navbar-brand {
+    margin-top: 10px;
+    font-size: 1.8rem;
+    color: #ff0000;
+    /* font-weight: bold; */
+  }
+  
+  #about {
+    padding: 100px 0;
+  }
+  
+  #services {
+    padding: 80px 0;
+  }
+  
+  #products {
+    padding: 100px 0;
+  }
+  
+  #contact {
+    padding: 80px 0;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 767px) {
+    #hero {
+      min-height: 300px;
+    }
+  
+    #about {
+      padding: 50px 0;
+    }
+  
+    #services {
+      padding: 60px 0;
+    }
+  
+    #products {
+      padding: 80px 0;
+    }
+  
+    #contact {
+      padding: 60px 0;
+    }
+  }
+  
+  .logo {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  #about {
+    margin-top: 40px;
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #22577a; 
+  }
+
+  #contact {
+    margin-top: 40px;
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #22577a; 
+  }
+  
+  .about-row {
+    align-items: center;
+  }
+  
+  #about h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  #about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color:#000000
+  }
+  
+  @media (max-width: 767px) {
+    #about h2 {
+      font-size: 2rem;
+    }
+  
+    #about p {
+      font-size: 1.1rem;
+    }
+  }
+  
+  
